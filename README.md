@@ -1,5 +1,6 @@
 # Hotels Flutter App
 
+## App Walkthrough
 ![App Walkthrough](assets/readme/presentation.gif)
 
 A Flutter hotel booking application built with clean architecture principles, featuring a bottom navigation bar with
@@ -564,7 +565,7 @@ flutter gen-l10n --arb-dir="lib/l10n/arb"
 import 'package:hotels/l10n/l10n.dart';
 
   final l10n = context.l10n;
-Text(l10n.hotelName);
+  Text(l10n.hotelName);
 ```
 
 ### Adding New Locales
