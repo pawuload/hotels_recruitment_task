@@ -1,8 +1,10 @@
 # Hotels Flutter App
 
 ## App Walkthrough
-![App Walkthrough](assets/readme/presentation.gif)
 
+<img src="assets/readme/presentation.gif" alt="App Walkthrough" width="50%" />
+
+---
 A Flutter hotel booking application built with clean architecture principles, featuring a bottom navigation bar with
 four tabs (Overview, Hotels, Favorites, and Account), state management using BLoC, and comprehensive error handling.
 
