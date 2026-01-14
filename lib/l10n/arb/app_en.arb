@@ -1,0 +1,151 @@
+{
+    "@@locale": "en",
+    "account": "Account",
+    "@account": {
+        "description": "Account page title and navigation label"
+    },
+    "overview": "Overview",
+    "@overview": {
+        "description": "Overview page title and navigation label"
+    },
+    "search": "Search",
+    "@search": {
+        "description": "Search navigation label"
+    },
+    "favorites": "Favorites",
+    "@favorites": {
+        "description": "Favorites page title and navigation label"
+    },
+    "noFavoritesYet": "No favorites yet",
+    "@noFavoritesYet": {
+        "description": "Message shown when there are no favorites"
+    },
+    "loadingFavorites": "Loading favorites...",
+    "@loadingFavorites": {
+        "description": "Message shown while loading favorites"
+    },
+    "noFavoritesFound": "No favorites found",
+    "@noFavoritesFound": {
+        "description": "Message shown when no favorites are found"
+    },
+    "language": "Language",
+    "@language": {
+        "description": "Language settings label"
+    },
+    "english": "English",
+    "@english": {
+        "description": "English language name"
+    },
+    "polish": "Polish",
+    "@polish": {
+        "description": "Polish language name"
+    },
+    "german": "German",
+    "@german": {
+        "description": "German language name"
+    },
+    "travelDetails": "Travel Details",
+    "@travelDetails": {
+        "description": "Travel details section title"
+    },
+    "days": "{count, plural, =0{0 days} =1{1 day} other{{count} days}}",
+    "@days": {
+        "description": "Number of days"
+    },
+    "nights": "{count, plural, =0{0 nights} =1{1 night} other{{count} nights}}",
+    "@nights": {
+        "description": "Number of nights"
+    },
+    "room": "Room",
+    "@room": {
+        "description": "Room label"
+    },
+    "boarding": "Boarding",
+    "@boarding": {
+        "description": "Boarding label"
+    },
+    "adults": "{count, plural, =0{0 adults} =1{1 adult} other{{count} adults}}",
+    "@adults": {
+        "description": "Number of adults"
+    },
+    "children": "{count, plural, =0{0 children} =1{1 child} other{{count} children}}",
+    "@children": {
+        "description": "Number of children"
+    },
+    "hotels": "Hotels",
+    "@hotels": {
+        "description": "Hotels page title"
+    },
+    "loadingHotels": "Loading hotels...",
+    "@loadingHotels": {
+        "description": "Message shown while loading hotels"
+    },
+    "error": "Error: ",
+    "@error": {
+        "description": "Error prefix"
+    },
+    "tryAgain": "Try again",
+    "@tryAgain": {
+        "description": "Retry button text"
+    },
+    "hotelDetails": "Hotel Details",
+    "@hotelDetails": {
+        "description": "Hotel details page title"
+    },
+    "moreImages": "More Images",
+    "@moreImages": {
+        "description": "More images section title"
+    },
+    "totalPrice": "Total Price",
+    "@totalPrice": {
+        "description": "Total price label"
+    },
+    "perPerson": "Per Person",
+    "@perPerson": {
+        "description": "Per person label"
+    },
+    "toOffers": "To Offers",
+    "@toOffers": {
+        "description": "Button text to view offers"
+    },
+    "toHotel": "To Hotel",
+    "@toHotel": {
+        "description": "Button text to view hotel"
+    },
+    "adultsAbbr": "Adults",
+    "@adultsAbbr": {
+        "description": "Adults abbreviation"
+    },
+    "childrenAbbr": "Children",
+    "@childrenAbbr": {
+        "description": "Children abbreviation"
+    },
+    "flightIncluded": "Flight included",
+    "@flightIncluded": {
+        "description": "Flight included label"
+    },
+    "flightIncludedShort": "incl. flight",
+    "@flightIncludedShort": {
+        "description": "Flight included short label"
+    },
+    "from": "from ",
+    "@from": {
+        "description": "Price prefix 'from'"
+    },
+    "perPersonAbbr": "p.p.",
+    "@perPersonAbbr": {
+        "description": "Per person abbreviation"
+    },
+    "years": "{count, plural, =0{0 years} =1{1 year} other{{count} years}}",
+    "@years": {
+        "description": "Number of years (for children ages)"
+    },
+    "roomLabel": "Room: ",
+    "@roomLabel": {
+        "description": "Room label with colon"
+    },
+    "boardingLabel": "Boarding: ",
+    "@boardingLabel": {
+        "description": "Boarding label with colon"
+    }
+}

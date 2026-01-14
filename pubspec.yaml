@@ -1,0 +1,69 @@
+name: hotels
+description: ''
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ^3.9.0
+  flutter: ^3.35.0
+
+dependencies:
+  auto_route: ^9.1.0 # navigation
+  bloc: ^9.0.1 # statemanagement
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^9.1.1 # statemanagement
+  flutter_localizations:
+    sdk: flutter
+  freezed_annotation: ^2.4.4 # codegeneration
+  http: ^1.2.2 # networking
+  intl: ^0.20.2 # localization
+  json_annotation: ^4.9.0 # serialization
+  google_fonts: ^6.2.1 # fonts
+  flutter_svg: ^2.0.10+1 # svg
+  shared_preferences: ^2.3.2 # storage
+  info_popup: ^4.3.2 # tooltips
+  fast_immutable_collections: ^11.1.0 # collections
+
+dev_dependencies:
+  auto_route_generator: ^9.0.0 # codegeneration
+  bloc_test: ^10.0.0 # testing
+  build_runner: ^2.4.13 # codegeneration
+  flutter_launcher_icons: ^0.14.1 # icons
+  flutter_native_splash: ^2.4.1 # splash
+  flutter_test:
+    sdk: flutter
+  freezed: ^2.5.2 # codegeneration
+  json_serializable: ^6.8.0 # codegeneration
+  mocktail: ^1.0.4 # testing
+  very_good_analysis: ^10.0.0 # linting
+
+flutter:
+  generate: true
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/images/
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/travelplanet_logo.png"
+  min_sdk_android: 21
+  remove_alpha_ios: true
+
+flutter_native_splash:
+  color: "#FFFFFF"
+  image: "assets/images/travelplanet_logo.png"
+  android: true
+  ios: true
+  web: true
+  fullscreen: true
+  android_12:
+    image: "assets/images/travelplanet_logo.png"
+    color: "#FFFFFF"
+    icon_background_color: "#FFFFFF"
+  android_gravity: center
+  ios_content_mode: center
+  web_image_mode: center
